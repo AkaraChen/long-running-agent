@@ -31,8 +31,8 @@ This repository is both the skill source and a single plugin named
 ### Claude Code
 
 ```sh
-claude plugin marketplace add AkaraChen/write-goal-skill
-claude plugin install write-goal@write-goal-skill
+claude plugin marketplace add AkaraChen/long-running-agent
+claude plugin install write-goal@long-running-agent
 ```
 
 Local check without installing:
@@ -47,8 +47,8 @@ checks the marketplace catalog.
 ### Codex
 
 ```sh
-codex plugin marketplace add AkaraChen/write-goal-skill
-codex plugin add write-goal@write-goal-skill
+codex plugin marketplace add AkaraChen/long-running-agent
+codex plugin add write-goal@long-running-agent
 ```
 
 A checkout of this repo also exposes the plugin through

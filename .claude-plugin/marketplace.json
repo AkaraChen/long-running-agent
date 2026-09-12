@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "write-goal-skill",
+  "name": "long-running-agent",
   "owner": {
     "name": "AkaraChen"
   },
@@ -18,8 +18,8 @@
         "name": "AkaraChen",
         "url": "https://github.com/AkaraChen"
       },
-      "homepage": "https://github.com/AkaraChen/write-goal-skill",
-      "repository": "https://github.com/AkaraChen/write-goal-skill",
+      "homepage": "https://github.com/AkaraChen/long-running-agent",
+      "repository": "https://github.com/AkaraChen/long-running-agent",
       "category": "productivity",
       "keywords": [
         "goal",

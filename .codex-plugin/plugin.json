@@ -6,8 +6,8 @@
     "name": "AkaraChen",
     "url": "https://github.com/AkaraChen"
   },
-  "homepage": "https://github.com/AkaraChen/write-goal-skill",
-  "repository": "https://github.com/AkaraChen/write-goal-skill",
+  "homepage": "https://github.com/AkaraChen/long-running-agent",
+  "repository": "https://github.com/AkaraChen/long-running-agent",
   "keywords": [
     "goal",
     "planning",
@@ -24,7 +24,7 @@
     "developerName": "AkaraChen",
     "category": "Developer Tools",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://github.com/AkaraChen/write-goal-skill",
+    "websiteURL": "https://github.com/AkaraChen/long-running-agent",
     "defaultPrompt": [
       "Help me turn this intention into a well-specified goal with $write-goal."
     ]

@@ -1,5 +1,5 @@
 {
-  "name": "write-goal-skill",
+  "name": "long-running-agent",
   "interface": {
     "displayName": "Write Goal"
   },
