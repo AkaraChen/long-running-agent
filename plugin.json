@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "write-goal",
+  "version": "0.1.0",
+  "description": "Help users turn a rough intention into a well-specified goal — a completion contract with a clear finish line, proof, boundaries, and stop rule.",
+  "author": {
+    "name": "AkaraChen",
+    "url": "https://github.com/AkaraChen"
+  },
+  "homepage": "https://github.com/AkaraChen/write-goal-skill",
+  "repository": "https://github.com/AkaraChen/write-goal-skill",
+  "keywords": [
+    "goal",
+    "planning",
+    "completion-contract",
+    "acceptance-criteria",
+    "verification",
+    "goal-mode"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Write Goal",
+        "shortDescription": "Craft a well-specified goal for goal mode",
+        "longDescription": "Use Write Goal to turn a rough intention into a completion contract for goal mode: a clear finish line, concrete proof, work boundaries, and a stop-and-report rule. It drafts the objective together with the user and starts it only after the wording is approved.",
+        "developerName": "AkaraChen",
+        "category": "Developer Tools",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/AkaraChen/write-goal-skill",
+        "defaultPrompt": [
+          "Help me turn this intention into a well-specified goal with $write-goal."
+        ]
+      }
+    }
+  }
+}

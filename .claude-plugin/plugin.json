@@ -1,0 +1,20 @@
+{
+  "name": "write-goal",
+  "displayName": "Write Goal",
+  "version": "0.1.0",
+  "description": "Help users turn a rough intention into a well-specified goal — a completion contract with a clear finish line, proof, boundaries, and stop rule.",
+  "author": {
+    "name": "AkaraChen",
+    "url": "https://github.com/AkaraChen"
+  },
+  "homepage": "https://github.com/AkaraChen/write-goal-skill",
+  "repository": "https://github.com/AkaraChen/write-goal-skill",
+  "keywords": [
+    "goal",
+    "planning",
+    "completion-contract",
+    "acceptance-criteria",
+    "verification",
+    "goal-mode"
+  ]
+}
