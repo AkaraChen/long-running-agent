@@ -22,6 +22,8 @@ Set the stop condition for this effort; do not import an arbitrary retry count f
 
 For a rewrite, identify the recurring failure class it should prevent and compare alternatives before committing. Include displaced fixes, security work, and features in the cost; use a bounded experiment to test feasibility.
 
+If the host has goal mode, see `write-goal`: it drafts this contract together with the user and starts it.
+
 ## 2. Choose the work unit and gates
 
 Define what **one unit done** means before assigning work. Include production, independent review, applied corrections, and the checks appropriate to that phase.

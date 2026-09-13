@@ -1,7 +1,7 @@
 {
-  "name": "write-goal",
-  "version": "0.1.0",
-  "description": "Help users turn a rough intention into a well-specified goal — a completion contract with a clear finish line, proof, boundaries, and stop rule.",
+  "name": "long-running-agent",
+  "version": "0.2.0",
+  "description": "Skills for long-running agent work — write the completion contract, run the loop to a verified finish, keep review adversarial, and orchestrate large migrations.",
   "author": {
     "name": "AkaraChen",
     "url": "https://github.com/AkaraChen"
@@ -9,24 +9,29 @@
   "homepage": "https://github.com/AkaraChen/long-running-agent",
   "repository": "https://github.com/AkaraChen/long-running-agent",
   "keywords": [
+    "long-running",
     "goal",
     "planning",
     "completion-contract",
-    "acceptance-criteria",
-    "verification",
-    "goal-mode"
+    "orchestration",
+    "adversarial-review",
+    "migration",
+    "verification"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Write Goal",
-    "shortDescription": "Craft a well-specified goal for goal mode",
-    "longDescription": "Use Write Goal to turn a rough intention into a completion contract for goal mode: a clear finish line, concrete proof, work boundaries, and a stop-and-report rule. It drafts the objective together with the user and starts it only after the wording is approved.",
+    "displayName": "Long Running Agent",
+    "shortDescription": "Run long agent jobs to a verified finish",
+    "longDescription": "Skills for long-running agent work: draft the completion contract, run the loop to a verified finish, keep authoring and review independent, and orchestrate large migrations.",
     "developerName": "AkaraChen",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://github.com/AkaraChen/long-running-agent",
     "defaultPrompt": [
-      "Help me turn this intention into a well-specified goal with $write-goal."
+      "Use $write-goal to turn this intention into a well-specified goal, then $run-long-task to carry it out to a verified finish."
     ]
   }
 }

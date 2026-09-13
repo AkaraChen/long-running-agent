@@ -5,15 +5,15 @@
     "name": "AkaraChen"
   },
   "metadata": {
-    "description": "Craft a well-specified goal for goal mode",
-    "version": "0.1.0"
+    "description": "Run long agent jobs to a verified finish",
+    "version": "0.2.0"
   },
   "plugins": [
     {
-      "name": "write-goal",
+      "name": "long-running-agent",
       "source": "./",
-      "description": "Help users turn a rough intention into a well-specified goal — a completion contract with a clear finish line, proof, boundaries, and stop rule.",
-      "version": "0.1.0",
+      "description": "Skills for long-running agent work — write the completion contract, run the loop to a verified finish, keep review adversarial, and orchestrate large migrations.",
+      "version": "0.2.0",
       "author": {
         "name": "AkaraChen",
         "url": "https://github.com/AkaraChen"
@@ -22,12 +22,14 @@
       "repository": "https://github.com/AkaraChen/long-running-agent",
       "category": "productivity",
       "keywords": [
+        "long-running",
         "goal",
         "planning",
         "completion-contract",
-        "acceptance-criteria",
-        "verification",
-        "goal-mode"
+        "orchestration",
+        "adversarial-review",
+        "migration",
+        "verification"
       ]
     }
   ]

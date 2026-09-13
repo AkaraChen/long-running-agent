@@ -1,11 +1,11 @@
 {
   "name": "long-running-agent",
   "interface": {
-    "displayName": "Write Goal"
+    "displayName": "Long Running Agent"
   },
   "plugins": [
     {
-      "name": "write-goal",
+      "name": "long-running-agent",
       "source": {
         "source": "local",
         "path": "./"
