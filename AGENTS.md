@@ -6,3 +6,4 @@
 - Plugin manifests live at the repo root: `.claude-plugin/` for Claude Code, `plugin.json` plus `.codex-plugin/` for Codex / Agent Plugins, and `.agents/plugins/marketplace.json` for the Codex marketplace catalog. Do not nest `skills/` inside those manifest directories.
 - Keep manifest fields consistent across `plugin.json`, `.claude-plugin/`, `.codex-plugin/`, and `.agents/plugins/`: `name: write-goal`, version `0.1.0`, author `AkaraChen`, homepage/repository `https://github.com/AkaraChen/long-running-agent`.
 - Do not add a root `docs/` directory or `install.sh`.
+- Methodology sources live in `references/` at the repo root. They are research notes backing a skill, not skills themselves — no `SKILL.md` in there, and they are not part of any plugin manifest.

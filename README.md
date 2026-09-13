@@ -16,6 +16,17 @@ repository** by **Moonshot AI**.
   instead of grinding on. It works with the user to draft and refine the
   objective, then starts it once the wording is approved.
 
+## Methodology sources
+
+`references/` holds methodology write-ups that skills in this repo draw on.
+They are research notes, not skills, and are not part of the plugin surface.
+
+- [references/bun-in-rust-methodology.md](references/bun-in-rust-methodology.md):
+  how Bun was ported from Zig to Rust in eleven days with supervised agent
+  workflows — decision criteria, prep artifacts, the orchestration loop, the
+  failure modes that forced process changes, and the verification strategy.
+  Extracted from Jarred Sumner's [“Rewriting Bun in Rust”](https://bun.com/blog/bun-in-rust).
+
 ## Compatibility
 
 The original skill text refers to Kimi Code's `/goal`, `AskUserQuestion`, and
